@@ -62,8 +62,8 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m-4 0h8m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
                 </svg>
               </div>
-              <span className="inline-block rounded-full bg-green-500/10 px-3 py-1 text-xs font-medium text-green-400">
-                Available Now
+              <span className="inline-block rounded-full bg-amber-500/10 px-3 py-1 text-xs font-medium text-amber-400">
+                Coming Soon
               </span>
               <h3 className="mt-4 text-xl font-semibold">VoiceOver Studio</h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-400">
