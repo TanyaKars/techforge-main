@@ -5,7 +5,7 @@ function App() {
       <nav className="fixed top-0 z-50 w-full border-b border-gray-800 bg-gray-950/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <span className="text-xl font-bold tracking-tight">
-            QAVerse<span className="text-indigo-400"> ES</span>
+            Tech<span className="text-indigo-400">Forge</span>
           </span>
           <div className="hidden gap-8 text-sm text-gray-400 sm:flex">
             <a href="#products" className="transition hover:text-white">Products</a>
@@ -27,7 +27,7 @@ function App() {
           </span>
         </h1>
         <p className="mt-6 max-w-xl text-lg text-gray-400">
-          QAVerse ES publishes software across creative and educational domains —
+          TechForge publishes software across creative and educational domains —
           from AI-powered voiceover tools to quality assurance training platforms.
         </p>
         <div className="mt-10 flex gap-4">
@@ -112,9 +112,9 @@ function App() {
       {/* About */}
       <section id="about" className="border-t border-gray-800 py-24">
         <div className="mx-auto max-w-3xl px-6 text-center">
-          <h2 className="text-3xl font-bold sm:text-4xl">About QAVerse ES</h2>
+          <h2 className="text-3xl font-bold sm:text-4xl">About TechForge</h2>
           <p className="mt-6 text-lg leading-relaxed text-gray-400">
-            QAVerse ES is a software publishing company focused on building
+            TechForge is a software publishing company focused on building
             high-quality digital products. We believe great software should be
             accessible, intuitive, and genuinely useful. From AI-driven creative
             tools to education platforms, we publish applications that help people
@@ -133,13 +133,13 @@ function App() {
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <div>
               <span className="text-lg font-bold tracking-tight">
-                QAVerse<span className="text-indigo-400"> ES</span>
+                Tech<span className="text-indigo-400">Forge</span>
               </span>
               <p className="mt-1 text-sm text-gray-500">Software Publishing Company</p>
             </div>
             <div className="flex flex-col items-center gap-2 text-sm text-gray-400 sm:items-end">
-              <a href="mailto:contact@qaverse.es" className="transition hover:text-white">
-                contact@qaverse.es
+              <a href="mailto:tanyakars@techforgeapp.com" className="transition hover:text-white">
+                tanyakars@techforgeapp.com
               </a>
               <div className="flex gap-6">
                 <a href="#products" className="transition hover:text-white">Products</a>
@@ -148,7 +148,7 @@ function App() {
             </div>
           </div>
           <div className="mt-8 border-t border-gray-800 pt-8 text-center text-sm text-gray-600">
-            &copy; {new Date().getFullYear()} QAVerse ES. All rights reserved.
+            &copy; {new Date().getFullYear()} TechForge. All rights reserved.
           </div>
         </div>
       </footer>
