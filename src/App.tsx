@@ -28,7 +28,7 @@ function App() {
         </h1>
         <p className="mt-6 max-w-xl text-lg text-gray-400">
           TechForge publishes software across creative and educational domains —
-          from AI-powered voiceover tools to quality assurance training platforms.
+          from AI-powered voice tools to quality assurance training platforms.
         </p>
         <div className="mt-10 flex gap-4">
           <a
@@ -55,22 +55,22 @@ function App() {
           </p>
 
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {/* VoiceOver Studio */}
-            <div className="group rounded-2xl border border-gray-800 bg-gray-900 p-8 transition hover:border-indigo-500/50">
+            {/* VV-Studio */}
+            <a href="https://vv-studio.us/" target="_blank" rel="noopener noreferrer" className="group rounded-2xl border border-gray-800 bg-gray-900 p-8 transition hover:border-indigo-500/50">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-400">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m-4 0h8m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
                 </svg>
               </div>
-              <span className="inline-block rounded-full bg-amber-500/10 px-3 py-1 text-xs font-medium text-amber-400">
-                Coming Soon
+              <span className="inline-block rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-400">
+                Live
               </span>
-              <h3 className="mt-4 text-xl font-semibold">VoiceOver Studio</h3>
+              <h3 className="mt-4 text-xl font-semibold">VV-Studio</h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-400">
                 Transform text into natural-sounding voiceovers for your videos.
                 AI-powered text-to-voice technology with professional quality output.
               </p>
-            </div>
+            </a>
 
             {/* Mobile Apps */}
             <div className="group rounded-2xl border border-gray-800 bg-gray-900 p-8 transition hover:border-indigo-500/50">
