@@ -3,10 +3,8 @@ function App() {
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Nav */}
       <nav className="fixed top-0 z-50 w-full border-b border-gray-800 bg-gray-950/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <span className="text-xl font-bold tracking-tight">
-            Tech<span className="text-indigo-400">Forge</span>
-          </span>
+        <div className="mx-auto flex max-w-6xl items-center justify-between pl-3 pr-6 py-4">
+          <img src="/TechForge-logo-transperent.png" alt="TechForge" className="h-28" />
           <div className="hidden gap-8 text-sm text-gray-400 sm:flex">
             <a href="#products" className="transition hover:text-white">Products</a>
             <a href="#about" className="transition hover:text-white">About</a>
